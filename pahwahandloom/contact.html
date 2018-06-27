@@ -1,0 +1,188 @@
+<html>
+<head> 
+  <title>Contact | Pahwa Handloom</title>
+  
+<!-- Favicon and app icon settings -->
+<meta name="msapplication-TileColor" content="#323754">
+<meta name="theme-color" content="#323754">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Slabo+13px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="row no-gutters">
+      <div class="col-md-12">
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+  <a class="navbar-brand" href="home.html"><span id="brand">Pahwa Handloom</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+    	<li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+
+    	
+
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navigation Bar Ends -->
+      </div>
+    </div>
+
+<!-- Main Section -->
+  <div class="row no-gutters">
+    <div class="col-md-12 mx-auto">
+      <div class="text-center" id="head">Contact Us</div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row no-gutters">
+    <div class="col-md-6">  
+      <div class="row no-gutters">
+        <table class="table" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td id="identity">Satish Pahwa</td>
+              <td></td>
+              <td>(India +91) <a href="tel:+919255123110">9255123110</a></td>
+              <td><a href="tel:+919255123110" title="Call Satish Pahwa"><button class="btn btn-outline-success" id="call-btn">Call Now</button></a></td>
+            </tr>
+            <tr>
+              <td id="identity">Veena Pahwa</td>
+              <td></td>
+              <td>(India +91) <a href="tel:+918813877807">8813877807</td>
+              <td><a href="tel:+918813877807" title="Call Veena Pahwa"><button class="btn btn-outline-success" id="call-btn">Call Now</button></a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <br>
+      <address>
+        <div class="row no-gutters">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td scope="col" id="name"><b>Address:</b></td>
+                <td id="addr"><b>PAHWA HANDLOOM</b><br>
+                  Opp. Navyug Public School,<br>
+                  Near PNB Bank, Prem Nagar<br>
+                  Karnal - 132001<br>
+                  Haryana, India<br>
+                </td>
+              </tr>
+              <tr>
+                <td scope="col" id="name"><b>Email:</b></td>
+                <td id="mailId"><a href="mailto:satishpahwa1964@gmail.com?subject=Regarding Query&body=Hi, I found you via your website..." title="Email us">satishpahwa1964@gmail.com</a></td>
+                <td id="mail-btn"><a href="mailto:satishpahwa1964@gmail.com?subject=Regarding Query&body=Hi, I found you via your website..." title="contact via email"><button class="btn btn-outline-primary" id="call-btn">Mail Us</button></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td id="mailId"><a href="mailto:nitin.pahwa21@gmail.com?subject=Regarding Query&body=Hi, I found you via your website..." title="Email us">nitin.pahwa21@gmail.com</a></td>
+                <td id="mail-btn"><a href="mailto:nitin.pahwa21@gmail.com?subject=Regarding Query&body=Hi, I found you via your website..." title="contact via email"><button class="btn btn-outline-primary" id="call-btn">Mail Us</button></a></td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+    </address>
+    </div>
+
+    <!-- Map -->
+    <div class="col-md-6" >
+      <div id="map"></div>
+        <script>
+          function myMap() {
+            var myCenter = new google.maps.LatLng(29.6965159,76.9616505,20);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {center: myCenter, zoom: 9, gestureHandling: 'greedy'};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+            // infowindow.open(map,marker);
+          }
+        </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCNruZm31QvHbhVQfw1yBvGFUoFMJO_6k&callback=myMap"></script>
+    </div>
+    <!-- Map Ends -->
+  </div>
+
+
+
+     <footer>
+    <!-- Footer Section -->
+<div class="row no-gutters" id="footer">
+  <div class="col-md-2 mx-auto">
+    <table border="0" id="foot-tab">
+      <tr>
+        <th>Company</th>
+      </tr>
+      <tr>
+        <td><a href="home.html" title="Home" class="deco-none">Home</a></td>
+      </tr> 
+      <tr>
+        <td><a href="about.html" title="About" class="deco-none">About Us</a></td>
+      </tr> 
+      <tr>
+        <td><a href="contact.html" title="Contact" class="deco-none">Contact Us</a></td>
+      </tr> 
+    </table>
+  </div>
+  
+  <div class="col-md-2 mx-auto">
+    <table border="0" id="foot-tab">
+      <tr>
+        <th>Social</th>
+      </tr>
+      <tr>
+        <td><a href="#" target="new" class="deco-none" title="Facebook Page"> <i class="fab fa-facebook-square"></i> &nbsp; Facebook</a></td>
+      </tr> 
+      <tr>
+        <td><a href="#" class="deco-none" title="Instagram Page"> <i class="fab fa-instagram"></i> &nbsp; Instagram</a></td>
+        <td></td>
+      </tr> 
+      <tr>
+        <td><a href="#" class="deco-none" title="Google+ Page"> <i class="fab fa-google-plus"></i> &nbsp; Google+</a></td>
+      </tr> 
+    </table>
+  </div>
+  <div class="col-md-2 mx-auto">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+   
+    <br>
+    <span id="footer-brand">Pahwa Handloom</span>
+    <br>
+    <span id="copyright">&copy; Pahwa Handloom<sup>&trade;</sup> 2018</span>
+    <br>
+    <span id="t-and-c">T&amp;C | Privacy Policy</span>
+  </div>
+    
+  <span id="hr"></span>
+  <div id="hr"></div>
+  <p id="seo-about">Pahwa Handloom offers a vast and ever increasing array of home furnishing products under one umbrella. Within each category, you will find numerous options for you to choose from. That way, we make it easy to find the style, size and colour that suit your space and personality.</p>
+  <!-- Footer Section Ends -->
+    
+</div>
